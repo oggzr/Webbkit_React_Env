@@ -4,13 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "lint": "node_modules/.bin/esw webpack.config* client"
   },
   "dependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-watch": "^3.1.3",
     "html-webpack-plugin": "^2.30.1",
     "path": "^0.12.7",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
   },
